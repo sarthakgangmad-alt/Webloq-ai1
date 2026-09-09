@@ -4,46 +4,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebloqAI — AI Automation Systems for Modern Business</title>
+  <title>WebloqAI — AI Business Automation & Systems Agency</title>
   <meta name="description"
-    content="WebloqAI designs and deploys custom AI automation systems, WhatsApp workflows, lead qualification engines, AI voice agents, and autonomous operations." />
+    content="WebloqAI designs and deploys practical AI automation systems that handle customer conversations, leads, follow-ups, appointments, and repetitive operations." />
   <meta name="keywords"
-    content="AI automation agency, WhatsApp automation, AI lead qualification, AI voice agents, business process automation, CRM automation, digital employees, autonomous workflows" />
+    content="AI automation agency, WhatsApp automation, lead management, CRM automation, customer support AI, business automation consultancy" />
 
-  <!-- OpenGraph / Social Metadata -->
+  <!-- OpenGraph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://webloq.ai/" />
   <meta property="og:title" content="WebloqAI — Your Business. On Autopilot." />
   <meta property="og:description"
-    content="We design and deploy AI-powered systems that automate customer conversations, lead generation, sales, support, and repetitive operations." />
-  <meta property="og:image" content="/images/og-webloqai.png" />
+    content="We design and deploy AI automations that handle customer conversations, lead follow-ups, appointment booking, and repetitive business operations." />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="WebloqAI — AI Automation Systems" />
-  <meta name="twitter:description"
-    content="We build AI systems that make businesses run themselves. WhatsApp automation, lead qualification, and digital workers." />
-
-  <!-- Canonical & Favicon -->
+  <!-- Canonical & Fonts -->
   <link rel="canonical" href="https://webloq.ai/" />
-  <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
 
-  <!-- Valid Schema.org JSON-LD Structured Data -->
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "WebloqAI",
     "url": "https://webloq.ai",
-    "logo": "https://webloq.ai/images/logo.png",
-    "description": "AI Automation Agency engineering autonomous business systems, WhatsApp workflows, lead qualification, and internal digital workers.",
+    "description": "AI business systems consultancy designing and deploying practical workflows, WhatsApp customer automation, and lead management systems.",
     "telephone": "+91-7028288803",
     "email": "webloqai@gmail.com",
     "address": {
@@ -51,44 +41,6 @@
       "addressLocality": "Pune",
       "addressRegion": "MH",
       "addressCountry": "IN"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "AI Automation Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "WhatsApp Automation Systems",
-            "description": "Autonomous 24/7 customer conversations, appointment booking, and broadcast workflows."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI Lead Qualification Engines",
-            "description": "Real-time inbound lead capture, intent scoring, CRM enrichment, and automated routing."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI Voice Agents",
-            "description": "Natural voice inbound call handling, lead triage, and appointment confirmation."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Workflow & Operations Automation",
-            "description": "Connecting CRMs, communication channels, databases, and internal software into unified autonomous pipelines."
-          }
-        }
-      ]
     }
   }
   </script>
@@ -97,750 +49,344 @@
 <body>
 
   <!-- ==========================================
-       SPOTLIGHT FLOATING NAVIGATION
+       SITE HEADER
        ========================================== -->
-  <div class="header-spotlight-wrapper">
-    <nav class="spotlight-nav" aria-label="Main Navigation">
-      <a href="/" class="logo-link">
-        <div class="logo-icon-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-            <polyline points="2 17 12 22 22 17"></polyline>
-            <polyline points="2 12 12 17 22 12"></polyline>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="logo-wrap">
+        <div class="logo-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
         </div>
-        <span>WEBLOQAI</span>
-        <div class="status-badge-nav">
-          <span></span> ONLINE
-        </div>
+        <span>WebloqAI</span>
       </a>
 
-      <div class="spotlight-nav-items">
-        <div class="spotlight-pill"></div>
-        <a href="#solutions" class="spotlight-link">Solutions</a>
-        <a href="#systems" class="spotlight-link">Systems</a>
-        <a href="#builder" class="spotlight-link">Pipeline Builder</a>
-        <a href="#whatsapp" class="spotlight-link">WhatsApp AI</a>
-        <a href="#agents" class="spotlight-link">Digital Workers</a>
-        <a href="#calculator" class="spotlight-link">ROI Calculator</a>
-        <a href="about.html" class="spotlight-link">About</a>
+      <nav class="nav-menu" id="main-nav-menu" aria-label="Main Navigation">
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#industries" class="nav-link">Industries</a>
+        <a href="#systems" class="nav-link">Systems</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="nav-cta-group">
+        <button class="btn btn-primary btn-sm" data-open-discovery>
+          Book a Consultation
+        </button>
+        <button class="mobile-menu-btn" id="mobile-nav-toggle" aria-label="Open navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
       </div>
-
-      <div class="spotlight-mobile-toggle" id="mobile-menu" aria-label="Toggle mobile menu">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </div>
-
-      <button class="btn btn-primary" data-open-discovery style="padding: 8px 22px; font-size: 0.85rem;">
-        Build My Automation
-      </button>
-    </nav>
-  </div>
-
-  <!-- ==========================================
-       1. HERO SECTION & 3D AI CORE
-       ========================================== -->
-  <header class="hero-section">
-    <div class="container hero-grid-layout">
-      
-      <!-- Left Column: Value Proposition -->
-      <div class="hero-content">
-        <div class="hero-status-tag">
-          <span class="pulse-dot"></span>
-          <span>AI AUTOMATION SYSTEMS AGENCY</span>
-        </div>
-
-        <h1 class="hero-headline">
-          YOUR BUSINESS.<br>
-          <span class="gradient-text">ON AUTOPILOT.</span>
-        </h1>
-
-        <p class="hero-description">
-          We design and deploy AI-powered systems that automate customer conversations, lead qualification, sales follow-ups, support, and repetitive business operations.
-        </p>
-
-        <div class="hero-ctas">
-          <button class="btn btn-primary" data-open-discovery>
-            Automate Your Business →
-          </button>
-          <a href="#solutions" class="btn btn-secondary">
-            See What We Automate
-          </a>
-        </div>
-
-        <div class="hero-metrics-strip">
-          <div class="metric-item">
-            <div class="metric-val">&lt; 450ms</div>
-            <div class="metric-label">Average System Latency</div>
-          </div>
-          <div class="metric-item">
-            <div class="metric-val">Zero Manual</div>
-            <div class="metric-label">CRM Lead Entry Required</div>
-          </div>
-          <div class="metric-item">
-            <div class="metric-val">24/7/365</div>
-            <div class="metric-label">Autonomous Operation</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right Column: Interactive 3D AI Core -->
-      <div class="hero-3d-wrapper">
-        <div id="ai-core-container">
-          <canvas id="ai-core-canvas"></canvas>
-          <div id="ai-core-tooltip" class="ai-core-hud-tooltip"></div>
-        </div>
-      </div>
-
     </div>
   </header>
 
   <!-- ==========================================
-       2. THE PROBLEM: ROBOT WORK VS AUTOMATION
+       1. HERO SECTION
        ========================================== -->
-  <section class="section" id="problem">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-tag"><span></span> OPERATIONAL BOTTLENECKS</div>
-        <h2 class="section-title">YOUR TEAM SHOULDN'T BE DOING ROBOT WORK.</h2>
-        <p class="section-subtitle">
-          High-value teams waste 40%+ of their workweek copying data between tabs, chasing cold leads, answering the same inquiries, and manually logging CRM records.
-        </p>
+  <section class="hero-section">
+    <div class="container hero-inner">
+      <div class="hero-badge-pill">
+        <span class="pill-dot"></span>
+        <span>AI Business Automation Consultancy</span>
       </div>
 
-      <div class="problem-comparison-grid">
-        <!-- Manual Business Stream -->
-        <div class="comparison-card manual-card">
-          <div class="comp-header">
-            <span class="comparison-badge badge-manual">MANUAL BOTTLENECK</span>
-            <h3>The Fragmented Workflow</h3>
-            <p>Every step requires human delay, context-switching, and manual coordination.</p>
-          </div>
+      <h1 class="hero-title">
+        YOUR BUSINESS.<br>
+        ON AUTOPILOT.
+      </h1>
 
-          <div class="timeline-stream">
-            <div class="timeline-event">
-              <span class="event-time">09:02 AM</span>
-              <span class="event-desc">New WhatsApp inquiry arrives while rep is busy on a call.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:18 AM</span>
-              <span class="event-desc">Customer messages a competitor who responds instantly.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:44 AM</span>
-              <span class="event-desc">Rep finally texts back; lead is already disengaged.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">11:15 AM</span>
-              <span class="event-desc">Manual copy-paste into CRM with typos and missing contact tags.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">03:30 PM</span>
-              <span class="event-desc">Forgotten follow-up causes another warm opportunity to go cold.</span>
-            </div>
-          </div>
+      <p class="hero-lead">
+        We design and deploy AI-powered automations that handle customer conversations, leads, follow-ups, appointments, and repetitive business operations — so your team can focus on work that actually matters.
+      </p>
 
-          <div class="comp-result-box">
-            RESULT: High human fatigue, dropped revenue, 4+ hour response delays.
-          </div>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-open-discovery>
+          Find What to Automate →
+        </button>
+        <a href="#how-it-works" class="btn btn-secondary">
+          See How It Works
+        </a>
+      </div>
+
+      <!-- Clean SVG/CSS Workflow Visual -->
+      <div class="hero-workflow-wrapper" id="hero-workflow-diagram"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       2. TRUST STATEMENT
+       ========================================== -->
+  <section class="trust-banner">
+    <div class="container">
+      <h3 class="trust-title">Built For Businesses That Value Their Time</h3>
+      <p class="trust-desc">
+        Whether you're handling hundreds of customer conversations every week or simply spending too much time on repetitive admin, we identify where automation creates tangible business value.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. THE PROBLEM SECTION
+       ========================================== -->
+  <section class="section" id="problem">
+    <div class="container problem-grid">
+      <div class="problem-lead-col">
+        <div class="section-tag">THE REALITY OF MANUAL WORK</div>
+        <h2>YOUR TEAM HAS BETTER THINGS TO DO.</h2>
+        <p>
+          High-value staff are often trapped doing routine coordination: answering the same inquiries, checking schedules, copying details into CRMs, and manually sending follow-ups.
+        </p>
+        <div class="problem-takeaway-box">
+          “These tasks don't necessarily need more people. They need better systems.”
         </div>
+      </div>
 
-        <!-- Automated Business Stream -->
-        <div class="comparison-card automated-card">
-          <div class="comp-header">
-            <span class="comparison-badge badge-auto">WEBLOQAI AUTONOMOUS PIPELINE</span>
-            <h3>The Autonomous System</h3>
-            <p>Every message triggers an intelligent sequence in sub-second execution time.</p>
-          </div>
-
-          <div class="timeline-stream">
-            <div class="timeline-event">
-              <span class="event-time">09:02:01</span>
-              <span class="event-desc">Inquiry received via WhatsApp Cloud API / Webchat.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:02:02</span>
-              <span class="event-desc">AI Agent extracts intent, budget, and qualification criteria.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:02:03</span>
-              <span class="event-desc">Structured lead record and deal stage created in CRM.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:02:04</span>
-              <span class="event-desc">Meeting slot confirmed directly on team calendar with zero friction.</span>
-            </div>
-            <div class="timeline-event">
-              <span class="event-time">09:02:05</span>
-              <span class="event-desc">Sales team notified in Slack with executive lead briefing.</span>
-            </div>
-          </div>
-
-          <div class="comp-result-box">
-            RESULT: Sub-30s response, 100% data fidelity, scalable to infinite inquiries.
-          </div>
-        </div>
+      <div class="problem-tasks-col">
+        <ul class="problem-tasks-list">
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Answering the same customer questions repeatedly</span>
+          </li>
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Following up with every new lead across text and email</span>
+          </li>
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Back-and-forth scheduling and calendar coordination</span>
+          </li>
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Updating customer records and deal stages in your CRM</span>
+          </li>
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Sending manual appointment and payment reminders</span>
+          </li>
+          <li class="problem-task-item">
+            <span class="task-dot"></span>
+            <span class="task-text">Copying information back and forth between tools</span>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       3. WHAT WE AUTOMATE (CORE OFFERINGS)
+       4. SOLUTIONS (WHAT WE AUTOMATE)
        ========================================== -->
-  <section class="section" id="solutions">
+  <section class="section section-alt" id="solutions">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> CORE CAPABILITIES</div>
-        <h2 class="section-title">IF IT'S REPETITIVE, WE CAN AUTOMATE IT.</h2>
+        <div class="section-tag">OUR SOLUTIONS</div>
+        <h2 class="section-title">WHAT WE AUTOMATE</h2>
         <p class="section-subtitle">
-          We don't sell generic point tools. We engineer end-to-end automation infrastructure tailored to your exact business architecture.
+          Practical business automations designed around your existing tools, not another confusing software subscription.
         </p>
       </div>
 
-      <div class="solutions-grid">
-        <!-- 1. Customer Conversations -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+      <div class="solutions-grid-clean">
+        <!-- 1. Conversations -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
           </div>
           <h3>Customer Conversations</h3>
-          <p>Autonomous AI agents that resolve inquiries, answer complex FAQs, and provide 24/7 support across WhatsApp, webchat, and social messaging.</p>
-          <ul class="solution-features-list">
-            <li>WhatsApp Business Cloud API</li>
-            <li>Omnichannel resolution</li>
-            <li>Custom knowledge base RAG</li>
-          </ul>
+          <p>AI-powered WhatsApp and website conversations that answer inquiries, provide guidance, and assist customers 24/7 without delays.</p>
         </div>
 
-        <!-- 2. AI Lead Automation -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 12 8"></polygon></svg>
+        <!-- 2. Lead Management -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
-          <h3>AI Lead Automation</h3>
-          <p>Capture every incoming prospect, ask intelligent qualification questions, score purchasing intent, and route high-tier leads directly to closers.</p>
-          <ul class="solution-features-list">
-            <li>Dynamic intent scoring</li>
-            <li>Instant prospect qualification</li>
-            <li>Automated rep routing</li>
-          </ul>
+          <h3>Lead Management</h3>
+          <p>Capture, qualify, and route leads automatically. Collect key requirements like budget, location, and timeline before assigning to reps.</p>
         </div>
 
-        <!-- 3. Sales Follow-Up -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        <!-- 3. Appointment Booking -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          </div>
+          <h3>Appointment Booking</h3>
+          <p>Let customers book consultations or services without waiting. Synchronizes directly with your team's live Google or Outlook calendars.</p>
+        </div>
+
+        <!-- 4. Sales Follow-Up -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
           </div>
           <h3>Sales Follow-Up</h3>
-          <p>Never let a lead go cold. Deploy multi-touch autonomous outreach sequences that re-engage stalled prospects and revive dormant pipeline revenue.</p>
-          <ul class="solution-features-list">
-            <li>Context-aware sequences</li>
-            <li>Pipeline dormancy monitors</li>
-            <li>Stalled deal re-activation</li>
-          </ul>
-        </div>
-
-        <!-- 4. Autonomous Appointments -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          </div>
-          <h3>Autonomous Appointments</h3>
-          <p>Zero back-and-forth scheduling. The system negotiates times, checks real-time calendar availability, locks slots, and dispatches automated reminders.</p>
-          <ul class="solution-features-list">
-            <li>Conflict-free calendar locking</li>
-            <li>Dynamic timezone resolution</li>
-            <li>WhatsApp appointment reminders</li>
-          </ul>
+          <p>Automatically follow up with prospects at the right moment. Re-engage stalled deals and ensure no warm opportunity is forgotten.</p>
         </div>
 
         <!-- 5. AI Voice Agents -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </div>
           <h3>AI Voice Agents</h3>
-          <p>Ultra-low latency spoken AI systems capable of answering inbound calls, conducting phone qualifications, scheduling consultations, and outbound reminders.</p>
-          <ul class="solution-features-list">
-            <li>Sub-400ms speech turnaround</li>
-            <li>Natural conversational cadence</li>
-            <li>Automated telephony triage</li>
-          </ul>
+          <p>Handle telephone calls, answer basic customer enquiries, verify bookings, and conduct outbound appointment reminder calls.</p>
         </div>
 
-        <!-- 6. Operations & Document ETL -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+        <!-- 6. Business Operations -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
           </div>
-          <h3>Operations & Document ETL</h3>
-          <p>Extract unstructured data from PDFs, invoices, contracts, and emails. Automatically parse, validate, and write records into your accounting or ERP database.</p>
-          <ul class="solution-features-list">
-            <li>Invoice & receipt parsing</li>
-            <li>Multi-tool data migration</li>
-            <li>Audit & compliance logs</li>
-          </ul>
+          <h3>Business Operations</h3>
+          <p>Automate repetitive internal processes: invoice parsing, document data extraction, spreadsheet updates, and team notifications.</p>
         </div>
 
-        <!-- 7. CRM Synchronization -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+        <!-- 7. CRM Automation -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
           </div>
-          <h3>CRM Synchronization</h3>
-          <p>Turn raw customer conversations into structured CRM records. Every phone call, chat, and interaction updates contact stages, notes, and deal values.</p>
-          <ul class="solution-features-list">
-            <li>HubSpot & Salesforce native sync</li>
-            <li>Zero manual rep data entry</li>
-            <li>Pristine pipeline hygiene</li>
-          </ul>
+          <h3>CRM Automation</h3>
+          <p>Keep customer records, conversation histories, and deal stages updated automatically without requiring your team to do manual data entry.</p>
         </div>
 
-        <!-- 8. Business Intelligence & Reporting -->
-        <div class="solution-card">
-          <div class="solution-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+        <!-- 8. Reporting & Intelligence -->
+        <div class="solution-card-clean">
+          <div class="sol-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
           </div>
           <h3>Reporting & Intelligence</h3>
-          <p>AI-generated daily executive summaries. Get actionable briefings delivered directly to Slack or WhatsApp covering conversion velocity and team metrics.</p>
-          <ul class="solution-features-list">
-            <li>Automated daily briefs</li>
-            <li>Bottleneck detection alerts</li>
-            <li>Real-time telemetry dashboards</li>
-          </ul>
+          <p>Turn scattered business data into concise daily summaries and operational briefings delivered straight to Slack, WhatsApp, or email.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       4. INTERACTIVE AUTOMATION BUILDER
+       5. SHOW, DON'T OVERSELL (BEFORE VS AFTER)
        ========================================== -->
-  <section class="section" id="builder">
+  <section class="section" id="showcase">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> INTERACTIVE WORKFLOW ENGINE</div>
-        <h2 class="section-title">ANATOMY OF AN AUTONOMOUS PIPELINE.</h2>
+        <div class="section-tag">PRACTICAL COMPARISON</div>
+        <h2 class="section-title">SEE WHAT AUTOMATION LOOKS LIKE</h2>
         <p class="section-subtitle">
-          Inspect how data moves through a production WebloqAI workflow. Click any node below to explore its input telemetry, AI reasoning, and API integrations.
+          Select an everyday business workflow below to compare the manual process with an automated system.
         </p>
       </div>
 
-      <div id="automation-builder" class="builder-layout">
-        <div class="builder-controls-bar">
-          <div class="builder-presets-group">
-            <button class="preset-btn active" data-preset="inbound">Inbound Lead Qualification</button>
-            <button class="preset-btn" data-preset="support">24/7 Omnichannel Support</button>
-            <button class="preset-btn" data-preset="reactivation">Pipeline Reactivation</button>
-          </div>
-          <button class="btn-simulate">
-            <span>▶</span> Run Live Simulation
-          </button>
+      <div class="showcase-wrapper" id="automation-showcase">
+        <div class="showcase-tabs-nav">
+          <button class="showcase-tab-btn active" data-scenario="booking">Appointment Booking</button>
+          <button class="showcase-tab-btn" data-scenario="lead">Lead Qualification</button>
+          <button class="showcase-tab-btn" data-scenario="support">Customer Support & Status</button>
         </div>
 
-        <!-- Node Chain -->
-        <div class="builder-nodes-list"></div>
-
-        <!-- Detail Inspection Card -->
-        <div class="builder-detail-card"></div>
+        <div class="showcase-content-area"></div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       5. DIGITAL EMPLOYEES (AI AGENTS)
+       6. WHATSAPP AUTOMATION
        ========================================== -->
-  <section class="section" id="agents">
+  <section class="section section-alt" id="whatsapp">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> DIGITAL WORKFORCE</div>
-        <h2 class="section-title">YOUR NEXT EMPLOYEES DON'T NEED A DESK.</h2>
-        <p class="section-subtitle">
-          Deploy specialized AI agents that execute business logic, operate internal tools, and run operations with sub-second response times.
-        </p>
-      </div>
-
-      <div class="agents-grid">
-        <!-- Agent 1: Ares -->
-        <div class="agent-card">
-          <div class="agent-header">
-            <div class="agent-avatar">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
-            </div>
-            <span class="agent-status-tag">● ACTIVE RUNTIME</span>
-          </div>
-          <div class="agent-role">SALES & QUALIFICATION</div>
-          <h3 class="agent-name">Ares</h3>
-          <p class="agent-desc">
-            Monitors incoming inquiries across WhatsApp and web channels, engages prospects, asks qualification questions, and books qualified meetings.
-          </p>
-          <div class="agent-specs">
-            <div class="spec-row"><span>Target Latency:</span> <span>&lt; 380ms</span></div>
-            <div class="spec-row"><span>Integrations:</span> <span>WhatsApp, HubSpot, Cal.com</span></div>
-            <div class="spec-row"><span>Qualification Rate:</span> <span>High Accuracy</span></div>
-          </div>
-        </div>
-
-        <!-- Agent 2: Nova -->
-        <div class="agent-card">
-          <div class="agent-header">
-            <div class="agent-avatar">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-            </div>
-            <span class="agent-status-tag">● ACTIVE RUNTIME</span>
-          </div>
-          <div class="agent-role">CUSTOMER SUPPORT</div>
-          <h3 class="agent-name">Nova</h3>
-          <p class="agent-desc">
-            Resolves customer questions 24/7, performs real-time shipping/order lookups against databases, and escalates edge cases with context.
-          </p>
-          <div class="agent-specs">
-            <div class="spec-row"><span>Autonomous Resolution:</span> <span>70%+ of Tickets</span></div>
-            <div class="spec-row"><span>Integrations:</span> <span>Shopify, Zendesk, WhatsApp</span></div>
-            <div class="spec-row"><span>Availability:</span> <span>24/7/365</span></div>
-          </div>
-        </div>
-
-        <!-- Agent 3: Vera -->
-        <div class="agent-card">
-          <div class="agent-header">
-            <div class="agent-avatar">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-            </div>
-            <span class="agent-status-tag">● ACTIVE RUNTIME</span>
-          </div>
-          <div class="agent-role">VOICE RECEPTIONIST</div>
-          <h3 class="agent-name">Vera</h3>
-          <p class="agent-desc">
-            Human-grade natural voice receptionist that handles telephone calls, answers questions, routes urgent callers, and schedules appointments.
-          </p>
-          <div class="agent-specs">
-            <div class="spec-row"><span>Voice Response Time:</span> <span>&lt; 400ms</span></div>
-            <div class="spec-row"><span>Channels:</span> <span>SIP, Twilio, Inbound VoIP</span></div>
-            <div class="spec-row"><span>Concurrency:</span> <span>100+ Simultaneous Calls</span></div>
-          </div>
-        </div>
-
-        <!-- Agent 4: Atlas -->
-        <div class="agent-card">
-          <div class="agent-header">
-            <div class="agent-avatar">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-            </div>
-            <span class="agent-status-tag">● ACTIVE RUNTIME</span>
-          </div>
-          <div class="agent-role">OPERATIONS & ETL</div>
-          <h3 class="agent-name">Atlas</h3>
-          <p class="agent-desc">
-            Connects internal databases, processes supplier documents, validates incoming invoices, and produces daily intelligence briefings.
-          </p>
-          <div class="agent-specs">
-            <div class="spec-row"><span>Processing Mode:</span> <span>Event-Driven</span></div>
-            <div class="spec-row"><span>Integrations:</span> <span>Postgres, Google Sheets, Slack</span></div>
-            <div class="spec-row"><span>Error Rate:</span> <span>Zero Mutation Drift</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================
-       6. WHATSAPP AUTOMATION SPOTLIGHT
-       ========================================== -->
-  <section class="section" id="whatsapp">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-tag"><span></span> OMNICHANNEL REVENUE ENGINE</div>
+        <div class="section-tag">WHATSAPP AUTOMATION</div>
         <h2 class="section-title">YOUR WHATSAPP. FINALLY WORKING FOR YOU.</h2>
         <p class="section-subtitle">
-          WhatsApp is where your customers prefer to talk. We transform it into an autonomous sales, qualification, and appointment booking engine.
+          Turn your most active customer messaging channel into an automated appointment booking and sales machine.
         </p>
       </div>
 
-      <div id="whatsapp-simulator" class="whatsapp-sim-layout">
-        <!-- Left: Phone Simulator -->
-        <div class="whatsapp-phone-frame">
-          <div class="wa-phone-header">
-            <div class="wa-profile-info">
-              <div class="wa-avatar">W</div>
-              <div>
-                <div class="wa-contact-name">Maval Healthcare AI</div>
-                <div class="wa-contact-status">● Webloq AI Agent Active</div>
-              </div>
+      <div class="whatsapp-clean-layout" id="whatsapp-demo-section">
+        <!-- Phone Mockup -->
+        <div class="wa-phone-clean">
+          <div class="wa-clean-header">
+            <div class="wa-clean-avatar">W</div>
+            <div class="wa-header-text">
+              <h4>Apex Services</h4>
+              <span>Online • WebloqAI Automated</span>
             </div>
           </div>
-
-          <div class="wa-chat-body"></div>
+          <div class="wa-clean-chat-body"></div>
         </div>
 
-        <!-- Right: Telemetry Terminal -->
-        <div class="whatsapp-terminal-frame">
-          <div class="terminal-top-bar">
-            <div class="term-dots">
-              <span></span><span></span><span></span>
-            </div>
-            <span class="term-title">BACKEND SYSTEM TELEMETRY</span>
-            <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-emerald);">● LIVE HOOK</span>
-          </div>
-
-          <div class="wa-scenario-tabs">
-            <button class="wa-scenario-pill active" data-scenario="clinic">Healthcare Booking</button>
-            <button class="wa-scenario-pill" data-scenario="realestate">Real Estate Lead</button>
-            <button class="wa-scenario-pill" data-scenario="support">E-Commerce Support</button>
-          </div>
-
-          <div class="wa-terminal-logs"></div>
-
-          <div class="terminal-controls-bottom">
-            <button class="sim-btn-ctrl btn-wa-playpause">
-              <span>❚❚</span> Pause
-            </button>
-            <button class="sim-btn-ctrl btn-wa-replay">
-              <span>↺</span> Replay Flow
-            </button>
-          </div>
-        </div>
+        <!-- Checklist Beside Phone -->
+        <div class="wa-clean-checklist-col wa-checklist-container"></div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       7. REFERENCE AUTOMATION SYSTEMS
+       7. AI ASSISTANTS (DIGITAL TEAM)
        ========================================== -->
-  <section class="section" id="systems">
+  <section class="section" id="assistants">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> REFERENCE ARCHITECTURES</div>
-        <h2 class="section-title">SYSTEMS WE BUILD.</h2>
+        <div class="section-tag">AI ASSISTANTS</div>
+        <h2 class="section-title">PRACTICAL AI ASSISTANTS FOR YOUR TEAM</h2>
         <p class="section-subtitle">
-          Production blueprints engineered to solve specific industry bottlenecks. Tested, defensible, and ready to deploy into your infrastructure.
+          We configure specialized AI assistants designed around specific roles in your business.
         </p>
       </div>
 
-      <div id="systems-showcase" class="systems-showcase">
-        <div class="systems-nav-tabs">
-          <button class="system-tab-btn active" data-system="realestate">Real Estate Lead Engine</button>
-          <button class="system-tab-btn" data-system="clinic">Clinic Appointment Engine</button>
-          <button class="system-tab-btn" data-system="restaurant">Restaurant VIP & Reservation</button>
-          <button class="system-tab-btn" data-system="ecommerce">E-Commerce Support Engine</button>
-          <button class="system-tab-btn" data-system="b2b">B2B Professional Services</button>
-        </div>
-
-        <!-- 1. Real Estate -->
-        <div class="system-content-panel" data-system="realestate">
-          <div class="system-details-col">
-            <h3>Real Estate Lead & Showing Engine</h3>
-            <p>
-              Inbound prospects from Instagram ads, portals, and WhatsApp are qualified based on location preference, timeline, and verified budget before being scheduled for private property walkthroughs.
-            </p>
-            <div class="system-specs-grid">
-              <div class="spec-box">
-                <div class="spec-box-label">AVERAGE QUALIFICATION TIME</div>
-                <div class="spec-box-val">&lt; 35 seconds</div>
-              </div>
-              <div class="spec-box">
-                <div class="spec-box-label">CRM COMPATIBILITY</div>
-                <div class="spec-box-val">Salesforce / HubSpot</div>
-              </div>
-            </div>
-            <button class="btn btn-primary" data-open-discovery>Deploy This System →</button>
-          </div>
-
-          <div class="system-pipeline-visual">
-            <div class="pipe-title"><span>●</span> EXECUTION CHAIN</div>
-            <div class="pipe-steps">
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">01</span>
-                <span class="pipe-step-desc">Inbound lead triggered via Meta Ads / WhatsApp</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">02</span>
-                <span class="pipe-step-desc">AI agent asks budget, BHK configuration & location</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">03</span>
-                <span class="pipe-step-desc">Lead score evaluated against active inventory database</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">04</span>
-                <span class="pipe-step-desc">Brochure dispatched + Showing booked on agent calendar</span>
-              </div>
-            </div>
+      <div class="assistants-grid">
+        <div class="assistant-card">
+          <span class="assistant-role-tag">SALES</span>
+          <h3>AI Sales Assistant</h3>
+          <p>Engages inbound leads across WhatsApp and web, asks essential qualification questions, and schedules meetings for your sales team.</p>
+          <div class="assistant-tasks">
+            <ul>
+              <li>Captures contact information</li>
+              <li>Scores budget & urgency</li>
+              <li>Books appointments on calendar</li>
+            </ul>
           </div>
         </div>
 
-        <!-- 2. Clinic -->
-        <div class="system-content-panel" data-system="clinic" style="display: none;">
-          <div class="system-details-col">
-            <h3>Clinic Patient Intake & Booking Engine</h3>
-            <p>
-              Eliminates receptionist call queues by fielding patient consultation inquiries 24/7, matching symptoms with relevant medical specialists, and booking direct calendar slots with reminder pushes.
-            </p>
-            <div class="system-specs-grid">
-              <div class="spec-box">
-                <div class="spec-box-label">STAFF TIME SAVED</div>
-                <div class="spec-box-val">~25 hrs / week</div>
-              </div>
-              <div class="spec-box">
-                <div class="spec-box-label">CALENDAR SYNC</div>
-                <div class="spec-box-val">Google Cal / Practo / EHR</div>
-              </div>
-            </div>
-            <button class="btn btn-primary" data-open-discovery>Deploy This System →</button>
-          </div>
-
-          <div class="system-pipeline-visual">
-            <div class="pipe-title"><span>●</span> EXECUTION CHAIN</div>
-            <div class="pipe-steps">
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">01</span>
-                <span class="pipe-step-desc">Patient sends WhatsApp query for specialist</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">02</span>
-                <span class="pipe-step-desc">AI triages symptoms and identifies doctor schedule</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">03</span>
-                <span class="pipe-step-desc">Patient confirms slot; locked directly into EHR</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">04</span>
-                <span class="pipe-step-desc">Confirmation & directions dispatched with 2h reminder</span>
-              </div>
-            </div>
+        <div class="assistant-card">
+          <span class="assistant-role-tag">SUPPORT</span>
+          <h3>AI Customer Support</h3>
+          <p>Resolves common questions 24/7, checks order and booking statuses, and seamlessly transfers complex issues to staff with full context.</p>
+          <div class="assistant-tasks">
+            <ul>
+              <li>Answers FAQs instantly</li>
+              <li>Queries order & booking databases</li>
+              <li>Escalates sensitive tickets</li>
+            </ul>
           </div>
         </div>
 
-        <!-- 3. Restaurant -->
-        <div class="system-content-panel" data-system="restaurant" style="display: none;">
-          <div class="system-details-col">
-            <h3>Restaurant Order & Reservation Engine</h3>
-            <p>
-              Automates table bookings, party size coordination, dietary notes, and menu previews directly within WhatsApp, preventing lost walk-ins and phone call interruptions during rush hours.
-            </p>
-            <div class="system-specs-grid">
-              <div class="spec-box">
-                <div class="spec-box-label">PEAK RUSH HANDLING</div>
-                <div class="spec-box-val">Zero Hold Time</div>
-              </div>
-              <div class="spec-box">
-                <div class="spec-box-label">GUEST CRM</div>
-                <div class="spec-box-val">VIP Tagging & History</div>
-              </div>
-            </div>
-            <button class="btn btn-primary" data-open-discovery>Deploy This System →</button>
-          </div>
-
-          <div class="system-pipeline-visual">
-            <div class="pipe-title"><span>●</span> EXECUTION CHAIN</div>
-            <div class="pipe-steps">
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">01</span>
-                <span class="pipe-step-desc">Guest messages table request: 'Table for 4 tonight'</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">02</span>
-                <span class="pipe-step-desc">AI cross-checks floor management table availability</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">03</span>
-                <span class="pipe-step-desc">Table reserved with dietary tags recorded</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">04</span>
-                <span class="pipe-step-desc">WhatsApp digital reservation pass dispatched</span>
-              </div>
-            </div>
+        <div class="assistant-card">
+          <span class="assistant-role-tag">TELEPHONY</span>
+          <h3>AI Receptionist</h3>
+          <p>Answers phone calls naturally, checks specialist availability, confirms appointments, and sends reminder texts automatically.</p>
+          <div class="assistant-tasks">
+            <ul>
+              <li>Handles incoming call triage</li>
+              <li>Books and reschedules bookings</li>
+              <li>Sends text confirmations</li>
+            </ul>
           </div>
         </div>
 
-        <!-- 4. E-Commerce -->
-        <div class="system-content-panel" data-system="ecommerce" style="display: none;">
-          <div class="system-details-col">
-            <h3>E-Commerce Post-Purchase & Tracking Engine</h3>
-            <p>
-              Handles the top 70% of support queries ("Where is my order?", return requests, size exchanges) by querying warehouse and courier APIs in real-time without support ticket backlogs.
-            </p>
-            <div class="system-specs-grid">
-              <div class="spec-box">
-                <div class="spec-box-label">INSTANT RESOLUTION</div>
-                <div class="spec-box-val">&lt; 3 seconds</div>
-              </div>
-              <div class="spec-box">
-                <div class="spec-box-label">PLATFORM SYNC</div>
-                <div class="spec-box-val">Shopify / Shiprocket / Delhivery</div>
-              </div>
-            </div>
-            <button class="btn btn-primary" data-open-discovery>Deploy This System →</button>
-          </div>
-
-          <div class="system-pipeline-visual">
-            <div class="pipe-title"><span>●</span> EXECUTION CHAIN</div>
-            <div class="pipe-steps">
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">01</span>
-                <span class="pipe-step-desc">Customer asks order status with order number</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">02</span>
-                <span class="pipe-step-desc">AI validates phone number & queries logistics API</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">03</span>
-                <span class="pipe-step-desc">Courier live tracking status returned dynamically</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">04</span>
-                <span class="pipe-step-desc">Support ticket closed with 0 human intervention</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 5. B2B -->
-        <div class="system-content-panel" data-system="b2b" style="display: none;">
-          <div class="system-details-col">
-            <h3>B2B Professional Services Pipeline</h3>
-            <p>
-              Qualifies high-ACV corporate inquiries by enriching firmographic data (company revenue, tech stack, headcount) and orchestrating personalized discovery calls with the matching partner.
-            </p>
-            <div class="system-specs-grid">
-              <div class="spec-box">
-                <div class="spec-box-label">ENRICHMENT LATENCY</div>
-                <div class="spec-box-val">&lt; 150ms</div>
-              </div>
-              <div class="spec-box">
-                <div class="spec-box-label">TOOL CONNECTIVITY</div>
-                <div class="spec-box-val">HubSpot / Slack / Apollo</div>
-              </div>
-            </div>
-            <button class="btn btn-primary" data-open-discovery>Deploy This System →</button>
-          </div>
-
-          <div class="system-pipeline-visual">
-            <div class="pipe-title"><span>●</span> EXECUTION CHAIN</div>
-            <div class="pipe-steps">
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">01</span>
-                <span class="pipe-step-desc">Web form or LinkedIn inquiry captured</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">02</span>
-                <span class="pipe-step-desc">Company domain enriched with revenue & employee count</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">03</span>
-                <span class="pipe-step-desc">Strategic account executive calendar slot proposed</span>
-              </div>
-              <div class="pipe-step-item">
-                <span class="pipe-step-num">04</span>
-                <span class="pipe-step-desc">Comprehensive deal dossier posted to Slack #sales-wins</span>
-              </div>
-            </div>
+        <div class="assistant-card">
+          <span class="assistant-role-tag">OPERATIONS</span>
+          <h3>AI Operations Assistant</h3>
+          <p>Processes incoming documents and invoices, syncs data between tools, and drafts daily performance summaries for management.</p>
+          <div class="assistant-tasks">
+            <ul>
+              <li>Parses invoice & form data</li>
+              <li>Syncs spreadsheets & databases</li>
+              <li>Delivers daily team briefings</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -848,188 +394,231 @@
   </section>
 
   <!-- ==========================================
-       8. LIVE SYSTEM TELEMETRY FEED
+       8. SYSTEMS WE CAN BUILD (BLUEPRINTS)
        ========================================== -->
-  <section class="section" id="telemetry">
+  <section class="section section-alt" id="systems">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> LIVE SIMULATION FEED</div>
-        <h2 class="section-title">WATCH THE SYSTEM WORK.</h2>
+        <div class="section-tag">PROVEN ARCHITECTURES</div>
+        <h2 class="section-title">SYSTEMS WE CAN BUILD</h2>
         <p class="section-subtitle">
-          Real-time simulated execution stream demonstrating active WebloqAI pipeline events, tool calls, and automated transitions.
+          Here are reference blueprints of automated systems we deploy for growing businesses:
         </p>
       </div>
 
-      <div id="telemetry-feed" class="telemetry-console-wrapper">
-        <div class="telemetry-header-bar">
-          <div class="telemetry-stats-group">
-            <div class="telemetry-stat">
-              <span class="t-label">SIMULATED EVENTS</span>
-              <span class="t-val stat-events-count">142,890</span>
-            </div>
-            <div class="telemetry-stat">
-              <span class="t-label">AVG LATENCY</span>
-              <span class="t-val stat-latency">340ms</span>
-            </div>
-            <div class="telemetry-stat">
-              <span class="t-label">SYSTEM UPTIME</span>
-              <span class="t-val" style="color: var(--accent-emerald);">99.98%</span>
-            </div>
+      <div class="blueprints-grid">
+        <!-- Blueprint 1 -->
+        <div class="blueprint-card">
+          <div class="bp-card-header">
+            <span class="bp-sector-badge">REAL ESTATE</span>
+            <h3>Lead Qualification & Showing Engine</h3>
           </div>
-
-          <div class="telemetry-filters">
-            <button class="feed-filter-btn active" data-filter="all">All Events</button>
-            <button class="feed-filter-btn" data-filter="whatsapp">WhatsApp</button>
-            <button class="feed-filter-btn" data-filter="leads">Leads</button>
-            <button class="feed-filter-btn" data-filter="crm">CRM</button>
-            <button class="feed-filter-btn" data-filter="voice">Voice</button>
-            <button class="feed-filter-btn" data-filter="ops">Operations</button>
+          <div class="bp-flow-row">
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE PROBLEM</div>
+              <p class="bp-col-text">Ad inquiries arrive throughout the day, and sales reps take hours to follow up, resulting in cold leads.</p>
+            </div>
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE AUTOMATION</div>
+              <p class="bp-col-text">AI responds on WhatsApp within 20 seconds → gathers budget & location preferences → books showing slot on rep calendar.</p>
+            </div>
+            <div class="bp-flow-col col-result">
+              <div class="bp-col-label">THE OUTCOME</div>
+              <p class="bp-col-text">100% of leads engaged immediately, zero manual data entry, and sales team spends time only with qualified buyers.</p>
+            </div>
           </div>
         </div>
 
-        <div class="telemetry-feed-list"></div>
+        <!-- Blueprint 2 -->
+        <div class="blueprint-card">
+          <div class="bp-card-header">
+            <span class="bp-sector-badge">HEALTHCARE & CLINICS</span>
+            <h3>Patient Intake & Booking Engine</h3>
+          </div>
+          <div class="bp-flow-row">
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE PROBLEM</div>
+              <p class="bp-col-text">Reception phone lines stay busy during clinic hours, leading to patient hold times and missed booking requests.</p>
+            </div>
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE AUTOMATION</div>
+              <p class="bp-col-text">Patients message on WhatsApp 24/7 → AI checks doctor schedule → reserves appointment slot → dispatches reminder 2h prior.</p>
+            </div>
+            <div class="bp-flow-col col-result">
+              <div class="bp-col-label">THE OUTCOME</div>
+              <p class="bp-col-text">Drastically reduced phone interruptions for clinical staff and lower appointment no-show rates.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blueprint 3 -->
+        <div class="blueprint-card">
+          <div class="bp-card-header">
+            <span class="bp-sector-badge">E-COMMERCE</span>
+            <h3>Customer Support & Status Engine</h3>
+          </div>
+          <div class="bp-flow-row">
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE PROBLEM</div>
+              <p class="bp-col-text">Support staff spend over 60% of their day repeatedly looking up order tracking codes in warehouse software.</p>
+            </div>
+            <div class="bp-flow-col">
+              <div class="bp-col-label">THE AUTOMATION</div>
+              <p class="bp-col-text">AI matches customer phone or order ID with live shipping carrier API and replies with GPS status in seconds.</p>
+            </div>
+            <div class="bp-flow-col col-result">
+              <div class="bp-col-label">THE OUTCOME</div>
+              <p class="bp-col-text">70%+ of tracking questions resolved instantly without tickets, freeing staff for complex service needs.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       9. WHY WEBLOQAI & 5-STEP PROCESS
+       9. INDUSTRIES
        ========================================== -->
-  <section class="section" id="process">
+  <section class="section" id="industries">
+    <div class="container" id="industries-section">
+      <div class="section-header">
+        <div class="section-tag">TAILORED WORKFLOWS</div>
+        <h2 class="section-title">BUILT AROUND YOUR BUSINESS.</h2>
+        <p class="section-subtitle">
+          Select your industry to see specific, high-impact automations we deploy:
+        </p>
+      </div>
+
+      <div class="industries-chips-row">
+        <button class="industry-chip active" data-industry="realestate">Real Estate</button>
+        <button class="industry-chip" data-industry="healthcare">Healthcare & Clinics</button>
+        <button class="industry-chip" data-industry="restaurants">Restaurants & Hospitality</button>
+        <button class="industry-chip" data-industry="professional">Professional Services</button>
+        <button class="industry-chip" data-industry="ecommerce">E-Commerce</button>
+        <button class="industry-chip" data-industry="education">Education</button>
+        <button class="industry-chip" data-industry="homeservices">Home Services</button>
+        <button class="industry-chip" data-industry="b2b">B2B & Tech</button>
+      </div>
+
+      <div class="industry-content-box"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. HOW IT WORKS (5 STEPS)
+       ========================================== -->
+  <section class="section section-alt" id="how-it-works">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> OUR METHODOLOGY</div>
-        <h2 class="section-title">WE DON'T SELL TOOLS. WE BUILD SYSTEMS.</h2>
+        <div class="section-tag">OUR PROCESS</div>
+        <h2 class="section-title">FROM REPETITIVE WORK TO AUTOMATED SYSTEM.</h2>
         <p class="section-subtitle">
-          You don't need another software subscription you only use 10% of. You need custom business infrastructure engineered for your exact operational workflow.
+          A structured, non-disruptive implementation process designed around how your team already works.
         </p>
       </div>
 
-      <div class="process-grid">
-        <div class="process-step-card">
-          <div class="process-step-num">01</div>
-          <h3>Discover</h3>
-          <p>We audit your current communication flows, lead pipelines, and repetitive bottlenecks to identify highest-impact automation targets.</p>
+      <div class="steps-timeline-grid">
+        <div class="step-item-card">
+          <div class="step-num-badge">01</div>
+          <h4>Understand</h4>
+          <p>We learn how your business currently operates and map your existing communication and lead flows.</p>
         </div>
 
-        <div class="process-step-card">
-          <div class="process-step-num">02</div>
-          <h3>Map</h3>
-          <p>We design a visual system architecture blueprint detailing trigger events, AI reasoning logic, database mutations, and human handoffs.</p>
+        <div class="step-item-card">
+          <div class="step-num-badge">02</div>
+          <h4>Identify</h4>
+          <p>We pinpoint the repetitive manual tasks that consume the most staff hours and cause bottlenecks.</p>
         </div>
 
-        <div class="process-step-card">
-          <div class="process-step-num">03</div>
-          <h3>Build</h3>
-          <p>We develop custom AI agents, structured prompts, API integrations, and error-handling fail-safes tailored to your exact tech stack.</p>
+        <div class="step-item-card">
+          <div class="step-num-badge">03</div>
+          <h4>Design</h4>
+          <p>We architect a straightforward automation workflow connecting AI reasoning with your tools.</p>
         </div>
 
-        <div class="process-step-card">
-          <div class="process-step-num">04</div>
-          <h3>Deploy</h3>
-          <p>We connect the automation to your real business tools (WhatsApp, CRM, Calendars) with comprehensive end-to-end sandbox testing.</p>
+        <div class="step-item-card">
+          <div class="step-num-badge">04</div>
+          <h4>Build</h4>
+          <p>We connect the software, configure guardrails, and thoroughly test the system before going live.</p>
         </div>
 
-        <div class="process-step-card">
-          <div class="process-step-num">05</div>
-          <h3>Optimize</h3>
-          <p>We monitor latency, edge cases, and conversion data in real time, refining the system to scale smoothly as your business grows.</p>
+        <div class="step-item-card">
+          <div class="step-num-badge">05</div>
+          <h4>Improve</h4>
+          <p>We monitor performance and refine prompts and integrations to scale seamlessly as you grow.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ==========================================
-       10. ROI & HOURS-SAVED CALCULATOR
+       11. CLEAN ROI CALCULATOR
        ========================================== -->
   <section class="section" id="calculator">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag"><span></span> OPERATIONAL MODEL</div>
-        <h2 class="section-title">CALCULATE YOUR AUTOMATION IMPACT.</h2>
+        <div class="section-tag">ESTIMATE IMPACT</div>
+        <h2 class="section-title">CALCULATE YOUR CAPACITY GAINED.</h2>
         <p class="section-subtitle">
-          Estimate the repetitive hours eliminated and pipeline opportunities recovered by deploying WebloqAI business automation systems.
+          See an estimate of the hours your business can reclaim by automating routine tasks.
         </p>
       </div>
 
-      <div id="roi-calculator" class="roi-calculator-layout">
-        <!-- Sliders Column -->
-        <div class="calc-inputs-col">
-          <!-- Slider 1 -->
-          <div class="slider-group">
-            <div class="slider-header">
-              <span class="slider-title">Monthly Leads & Inquiries</span>
-              <span class="slider-value-badge" id="roi-val-leads">450 leads / mo</span>
+      <div class="clean-calc-wrapper" id="clean-roi-calculator">
+        <div class="calc-inputs-list">
+          <div class="calc-field-group">
+            <div class="calc-field-header">
+              <span class="calc-field-label">Monthly Enquiries / Leads</span>
+              <span class="calc-field-val" id="calc-val-leads">350 / mo</span>
             </div>
-            <input type="range" id="roi-leads" min="50" max="3000" step="50" value="450" />
+            <input type="range" id="calc-leads" min="50" max="2500" step="50" value="350">
           </div>
 
-          <!-- Slider 2 -->
-          <div class="slider-group">
-            <div class="slider-header">
-              <span class="slider-title">Current Average Response Time</span>
-              <span class="slider-value-badge" id="roi-val-response-time">3 hours</span>
+          <div class="calc-field-group">
+            <div class="calc-field-header">
+              <span class="calc-field-label">Average Customer / Deal Value</span>
+              <span class="calc-field-val" id="calc-val-deal">$1,000</span>
             </div>
-            <input type="range" id="roi-response-time" min="0.25" max="12" step="0.25" value="3" />
+            <input type="range" id="calc-deal-val" min="100" max="8000" step="100" value="1000">
           </div>
 
-          <!-- Slider 3 -->
-          <div class="slider-group">
-            <div class="slider-header">
-              <span class="slider-title">Team Handling Communications / Admin</span>
-              <span class="slider-value-badge" id="roi-val-team-size">4 people</span>
+          <div class="calc-field-group">
+            <div class="calc-field-header">
+              <span class="calc-field-label">Hours Spent on Repetitive Tasks</span>
+              <span class="calc-field-val" id="calc-val-hours">10 hrs / wk</span>
             </div>
-            <input type="range" id="roi-team-size" min="1" max="15" step="1" value="4" />
+            <input type="range" id="calc-hours" min="4" max="25" step="1" value="10">
           </div>
 
-          <!-- Slider 4 -->
-          <div class="slider-group">
-            <div class="slider-header">
-              <span class="slider-title">Average Customer / Deal Value</span>
-              <span class="slider-value-badge" id="roi-val-lead-value">$1,200</span>
+          <div class="calc-field-group">
+            <div class="calc-field-header">
+              <span class="calc-field-label">Team Members Handling These Tasks</span>
+              <span class="calc-field-val" id="calc-val-team">3 people</span>
             </div>
-            <input type="range" id="roi-lead-value" min="100" max="10000" step="100" value="1200" />
-          </div>
-
-          <!-- Slider 5 -->
-          <div class="slider-group">
-            <div class="slider-header">
-              <span class="slider-title">Weekly Repetitive Hours per Rep</span>
-              <span class="slider-value-badge" id="roi-val-hours-spent">12 hrs / week</span>
-            </div>
-            <input type="range" id="roi-hours-spent" min="5" max="30" step="1" value="12" />
+            <input type="range" id="calc-team" min="1" max="15" step="1" value="3">
           </div>
         </div>
 
-        <!-- Results Column -->
-        <div class="calc-results-col">
-          <div class="currency-toggle-wrapper">
-            <span style="font-size: 0.78rem; color: var(--text-dim);">Currency:</span>
-            <button class="currency-toggle-btn active" data-currency="$">USD ($)</button>
-            <button class="currency-toggle-btn" data-currency="₹">INR (₹)</button>
-          </div>
+        <div class="calc-results-panel">
+          <div class="results-metrics-stack">
+            <div class="res-metric-item">
+              <div class="res-label">ESTIMATED RECLAIMED HOURS</div>
+              <div class="res-value accent-color" id="calc-out-hours">~91 hrs / mo</div>
+            </div>
 
-          <div class="roi-results-grid">
-            <div class="roi-metric-box">
-              <div class="roi-metric-label">EST. RECLAIMED HOURS / MO</div>
-              <div class="roi-metric-val highlight" id="roi-out-hours">~162 hrs</div>
+            <div class="res-metric-item">
+              <div class="res-label">RESPONSE SPEED IMPROVEMENT</div>
+              <div class="res-value" id="calc-out-speed">Hours → &lt; 30 sec</div>
             </div>
-            <div class="roi-metric-box">
-              <div class="roi-metric-label">RESPONSE SPEED BOOST</div>
-              <div class="roi-metric-val" id="roi-out-speed">3h → &lt;30s</div>
-            </div>
-            <div class="roi-metric-box">
-              <div class="roi-metric-label">EST. RECOVERED DEALS / MO</div>
-              <div class="roi-metric-val" id="roi-out-leads">+9 deals</div>
-            </div>
-            <div class="roi-metric-box">
-              <div class="roi-metric-label">EST. MONTHLY CAPACITY VALUE</div>
-              <div class="roi-metric-val highlight" id="roi-out-value">~$8,850</div>
+
+            <div class="res-metric-item">
+              <div class="res-label">ESTIMATED CAPACITY GAINED</div>
+              <div class="res-value" id="calc-out-capacity">+0.6x team capacity</div>
             </div>
           </div>
 
-          <p class="roi-disclaimer">
-            *Illustrative estimates based on automation industry models. Actual performance varies with business workflows and deployment logic.
+          <p class="res-disclaimer">
+            *Illustrative estimate — actual results vary by workflow and implementation.
           </p>
         </div>
       </div>
@@ -1037,21 +626,38 @@
   </section>
 
   <!-- ==========================================
-       11. FINAL CONVERSION CTA
+       12. ABOUT WEBLOQAI
+       ========================================== -->
+  <section class="section section-alt" id="about">
+    <div class="container" style="max-width: 820px; text-align: center;">
+      <div class="section-tag">WHO WE ARE</div>
+      <h2 class="section-title">WE BUILD SYSTEMS THAT GIVE PEOPLE THEIR TIME BACK.</h2>
+      <p style="font-size: 1.12rem; margin-bottom: 24px;">
+        WebloqAI helps businesses identify repetitive work and replace manual processes with practical AI-powered systems.
+      </p>
+      <p style="font-size: 1.05rem; color: var(--text-main); font-weight: 500; margin-bottom: 32px;">
+        We don't automate for the sake of using AI. We automate where it creates real, measurable business value.
+      </p>
+      <a href="about.html" class="btn btn-secondary">Learn More About Our Philosophy →</a>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       13. FINAL CONVERSION CTA
        ========================================== -->
   <section class="section" id="contact">
     <div class="container">
-      <div class="final-cta-box">
+      <div class="cta-banner-clean">
         <h2>WHAT SHOULD YOUR BUSINESS<br>STOP DOING MANUALLY?</h2>
         <p>
-          Tell us what your team is spending hours on. We'll map the exact automation architecture to run it on autopilot.
+          Tell us what's slowing your team down. We'll identify where automation can make the biggest difference.
         </p>
-        <div class="final-cta-buttons">
-          <button class="btn btn-primary" data-open-discovery style="padding: 14px 34px; font-size: 1.05rem;">
+        <div class="cta-btn-group">
+          <button class="btn btn-primary" data-open-discovery style="padding: 14px 32px; font-size: 1rem;">
             Find My Automation Opportunities →
           </button>
-          <a href="https://wa.me/917028288803?text=Hi%20WebloqAI%2C%20I%20want%20to%20automate%20my%20business%20workflows" target="_blank" class="btn btn-secondary" style="padding: 14px 28px;">
-            Message on WhatsApp
+          <a href="https://wa.me/917028288803" target="_blank" class="btn btn-secondary" style="padding: 14px 28px;">
+            Talk to Us on WhatsApp
           </a>
         </div>
       </div>
@@ -1059,267 +665,260 @@
   </section>
 
   <!-- ==========================================
-       12. 6-STEP INTERACTIVE DISCOVERY MODAL
+       14. CONSULTING INTAKE MODAL (6-STEP)
        ========================================== -->
-  <div id="discovery-modal" class="discovery-modal-overlay" role="dialog" aria-modal="true">
-    <div class="discovery-modal-card">
-      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+  <div id="consulting-modal" class="clean-modal-overlay" role="dialog" aria-modal="true">
+    <div class="clean-modal-card">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
 
-      <div class="discovery-progress-bar">
-        <div class="progress-fill"></div>
+      <div class="modal-progress-strip">
+        <span class="form-progress-indicator">Step 01 of 06</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill"></div>
+        </div>
       </div>
 
-      <div class="modal-step-meta">
-        <span class="step-indicator-text">STEP 01 OF 06</span>
-        <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-dim);">AUTOMATION AUDIT</span>
-      </div>
-
-      <form id="discovery-form">
-        <!-- Step 1: Business Type -->
-        <div class="discovery-step active" data-step="1">
-          <h3 class="step-title">What type of business do you run?</h3>
-          <p class="step-desc">We tailor our AI system architecture to your exact operational model.</p>
-          <div class="options-grid">
-            <div class="selectable-option" data-value="Real Estate">
-              <div class="option-name">Real Estate & Developers</div>
-              <div class="option-desc">High-ticket inquiries, buyer qualification & site showings</div>
+      <form id="consulting-form">
+        <!-- Step 1 -->
+        <div class="form-step-card active" data-step="1">
+          <h3>What type of business do you run?</h3>
+          <p>Helps us suggest the most relevant automation workflows.</p>
+          <div class="form-options-grid">
+            <div class="form-choice-btn" data-value="Real Estate">
+              <div class="choice-title">Real Estate</div>
+              <div class="choice-sub">Brokerages, developers, property management</div>
             </div>
-            <div class="selectable-option" data-value="Healthcare">
-              <div class="option-name">Healthcare & Clinics</div>
-              <div class="option-desc">Doctor appointments, patient triage & intake reminders</div>
+            <div class="form-choice-btn" data-value="Healthcare">
+              <div class="choice-title">Healthcare & Clinics</div>
+              <div class="choice-sub">Medical, dental, physiotherapy, wellness</div>
             </div>
-            <div class="selectable-option" data-value="E-Commerce">
-              <div class="option-name">E-Commerce & Retail</div>
-              <div class="option-desc">Order tracking, return triage & customer support</div>
+            <div class="form-choice-btn" data-value="Restaurants">
+              <div class="choice-title">Restaurants & Dining</div>
+              <div class="choice-sub">Table reservations, catering, guest queries</div>
             </div>
-            <div class="selectable-option" data-value="Hospitality">
-              <div class="option-name">Hospitality & Dining</div>
-              <div class="option-desc">Table bookings, menu queries & VIP guest tracking</div>
+            <div class="form-choice-btn" data-value="Professional Services">
+              <div class="choice-title">Professional Services</div>
+              <div class="choice-sub">Legal, accounting, consulting, agencies</div>
             </div>
-            <div class="selectable-option" data-value="Professional Services">
-              <div class="option-name">Professional Services</div>
-              <div class="option-desc">Legal, consulting, finance & B2B sales pipelines</div>
+            <div class="form-choice-btn" data-value="E-Commerce">
+              <div class="choice-title">E-Commerce & Retail</div>
+              <div class="choice-sub">Online stores, direct-to-consumer brands</div>
             </div>
-            <div class="selectable-option" data-value="Agency & Other">
-              <div class="option-name">Agency / Technology</div>
-              <div class="option-desc">Inbound client qualification & internal workflows</div>
+            <div class="form-choice-btn" data-value="Other Business">
+              <div class="choice-title">Other Business</div>
+              <div class="choice-sub">Education, field services, B2B software</div>
             </div>
           </div>
         </div>
 
-        <!-- Step 2: What to Automate -->
-        <div class="discovery-step" data-step="2">
-          <h3 class="step-title">What do you want to automate?</h3>
-          <p class="step-desc">Select all workflows you want to put on autopilot.</p>
-          <div class="options-grid">
-            <div class="selectable-option" data-multi="true" data-value="WhatsApp Automation">
-              <div class="option-name">WhatsApp Automation</div>
-              <div class="option-desc">24/7 autonomous customer chat & lead follow-up</div>
+        <!-- Step 2 -->
+        <div class="form-step-card" data-step="2">
+          <h3>What would you like to automate?</h3>
+          <p>Select all workflows where manual work slows you down.</p>
+          <div class="form-options-grid">
+            <div class="form-choice-btn" data-multi="true" data-value="WhatsApp Customer Conversations">
+              <div class="choice-title">WhatsApp Conversations</div>
+              <div class="choice-sub">24/7 customer chat & inquiry replies</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Lead Qualification">
-              <div class="option-name">Lead Qualification</div>
-              <div class="option-desc">Instant scoring, qualification questions & CRM sync</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Lead Qualification">
+              <div class="choice-title">Lead Qualification</div>
+              <div class="choice-sub">Instant response & buyer criteria collection</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Customer Support">
-              <div class="option-name">24/7 Customer Support</div>
-              <div class="option-desc">Resolve 70%+ of customer tickets automatically</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Appointment Booking">
+              <div class="choice-title">Appointment Booking</div>
+              <div class="choice-sub">Self-service calendar locks & reminders</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="AI Voice Agents">
-              <div class="option-name">AI Voice Agents</div>
-              <div class="option-desc">Handle phone calls, booking calls & triage</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Customer Support">
+              <div class="choice-title">Customer Support</div>
+              <div class="choice-sub">Common questions & order status resolution</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Appointment Booking">
-              <div class="option-name">Appointment Booking</div>
-              <div class="option-desc">Autonomous calendar locks & WhatsApp reminders</div>
+            <div class="form-choice-btn" data-multi="true" data-value="AI Voice Calling">
+              <div class="choice-title">AI Voice Calling</div>
+              <div class="choice-sub">Inbound call handling & phone reminders</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Internal Operations">
-              <div class="option-name">Internal Operations & ETL</div>
-              <div class="option-desc">Document parsing, invoices, reports & DB sync</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 3: Inquiry Volume -->
-        <div class="discovery-step" data-step="3">
-          <h3 class="step-title">How many inquiries or leads do you receive?</h3>
-          <p class="step-desc">Helps us architect concurrency and API throughput specifications.</p>
-          <div class="options-grid">
-            <div class="selectable-option" data-value="Under 100 / month">
-              <div class="option-name">Under 100 / month</div>
-              <div class="option-desc">Early-stage volume, focus on high conversion</div>
-            </div>
-            <div class="selectable-option" data-value="100 - 500 / month">
-              <div class="option-name">100 - 500 / month</div>
-              <div class="option-desc">Growing business experiencing response lag</div>
-            </div>
-            <div class="selectable-option" data-value="500 - 2,500 / month">
-              <div class="option-name">500 - 2,500 / month</div>
-              <div class="option-desc">High volume with significant human bottlenecks</div>
-            </div>
-            <div class="selectable-option" data-value="2,500+ / month">
-              <div class="option-name">2,500+ / month</div>
-              <div class="option-desc">Enterprise scale requiring dedicated AI routing</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Internal Admin Operations">
+              <div class="choice-title">Internal Admin Workflows</div>
+              <div class="choice-sub">Data entry, invoices & spreadsheet sync</div>
             </div>
           </div>
         </div>
 
-        <!-- Step 4: Current Tools -->
-        <div class="discovery-step" data-step="4">
-          <h3 class="step-title">What tools do you currently use?</h3>
-          <p class="step-desc">Select the software your team operates daily.</p>
-          <div class="options-grid">
-            <div class="selectable-option" data-multi="true" data-value="WhatsApp">
-              <div class="option-name">WhatsApp / WhatsApp Business</div>
+        <!-- Step 3 -->
+        <div class="form-step-card" data-step="3">
+          <h3>What tools do you currently use?</h3>
+          <p>We connect our automations directly into your existing software.</p>
+          <div class="form-options-grid">
+            <div class="form-choice-btn" data-multi="true" data-value="WhatsApp">
+              <div class="choice-title">WhatsApp / WhatsApp Business</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="HubSpot / Salesforce">
-              <div class="option-name">HubSpot / Salesforce / Zoho</div>
+            <div class="form-choice-btn" data-multi="true" data-value="CRM (HubSpot / Salesforce)">
+              <div class="choice-title">HubSpot / Salesforce / Zoho CRM</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Google Workspace">
-              <div class="option-name">Google Calendar / Sheets / Gmail</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Google Workspace">
+              <div class="choice-title">Google Calendar / Gmail / Sheets</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Shopify / WooCommerce">
-              <div class="option-name">Shopify / WooCommerce / ERP</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Shopify / E-commerce">
+              <div class="choice-title">Shopify / WooCommerce / Custom</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Slack / Teams">
-              <div class="option-name">Slack / Microsoft Teams</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Slack / Teams">
+              <div class="choice-title">Slack / Microsoft Teams</div>
             </div>
-            <div class="selectable-option" data-multi="true" data-value="Spreadsheets Only">
-              <div class="option-name">Manual Spreadsheets / Paper</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Step 5: Primary Bottleneck -->
-        <div class="discovery-step" data-step="5">
-          <h3 class="step-title">What is your biggest operational bottleneck?</h3>
-          <p class="step-desc">The single biggest friction point slowing down revenue.</p>
-          <div class="options-grid">
-            <div class="selectable-option" data-value="Slow response times">
-              <div class="option-name">Slow Response Times</div>
-              <div class="option-desc">Leads go cold before our team can reply</div>
-            </div>
-            <div class="selectable-option" data-value="Manual data entry">
-              <div class="option-name">Manual Data Entry</div>
-              <div class="option-desc">Team spends hours updating CRMs and spreadsheets</div>
-            </div>
-            <div class="selectable-option" data-value="Missed appointments">
-              <div class="option-name">Missed Appointments & No-Shows</div>
-              <div class="option-desc">High cancellation and no-show rate</div>
-            </div>
-            <div class="selectable-option" data-value="Support ticket overload">
-              <div class="option-name">Support Ticket Backlog</div>
-              <div class="option-desc">Repetitive customer inquiries swamp the team</div>
+            <div class="form-choice-btn" data-multi="true" data-value="Manual Spreadsheets">
+              <div class="choice-title">Manual Spreadsheets & Paper</div>
             </div>
           </div>
         </div>
 
-        <!-- Step 6: Contact Information -->
-        <div class="discovery-step" data-step="6">
-          <h3 class="step-title">Where should we send your system blueprint?</h3>
-          <p class="step-desc">Our automation engineers will review your inputs and prepare an architecture plan.</p>
-          <div class="contact-inputs-grid">
-            <div class="form-group">
-              <label for="input-name">Full Name *</label>
-              <input type="text" id="input-name" placeholder="Harshal Sankala" required />
+        <!-- Step 4 -->
+        <div class="form-step-card" data-step="4">
+          <h3>Approximately how many enquiries do you receive?</h3>
+          <p>Helps us understand your operational scale.</p>
+          <div class="form-options-grid">
+            <div class="form-choice-btn" data-value="Under 100 / month">
+              <div class="choice-title">Under 100 / month</div>
+              <div class="choice-sub">Early-stage volume</div>
             </div>
-            <div class="form-group">
-              <label for="input-company">Company / Business Name</label>
-              <input type="text" id="input-company" placeholder="Acme Enterprises" />
+            <div class="form-choice-btn" data-value="100 to 500 / month">
+              <div class="choice-title">100 to 500 / month</div>
+              <div class="choice-sub">Growing volume with noticeable delays</div>
             </div>
-            <div class="form-group">
-              <label for="input-email">Business Email *</label>
-              <input type="email" id="input-email" placeholder="name@company.com" required />
+            <div class="form-choice-btn" data-value="500 to 2,000 / month">
+              <div class="choice-title">500 to 2,000 / month</div>
+              <div class="choice-sub">Significant staff burden</div>
             </div>
-            <div class="form-group">
-              <label for="input-phone">WhatsApp Number *</label>
-              <input type="tel" id="input-phone" placeholder="+91 98XXX XXXXX" required />
+            <div class="form-choice-btn" data-value="2,000+ / month">
+              <div class="choice-title">2,000+ / month</div>
+              <div class="choice-sub">High volume enterprise operations</div>
             </div>
           </div>
         </div>
 
-        <div class="modal-nav-footer">
-          <button type="button" class="btn btn-secondary btn-step-prev" style="visibility: hidden;">
+        <!-- Step 5 -->
+        <div class="form-step-card" data-step="5">
+          <h3>What is currently taking up too much time?</h3>
+          <p>The single biggest operational friction point.</p>
+          <div class="form-options-grid">
+            <div class="form-choice-btn" data-value="Slow response times & lost leads">
+              <div class="choice-title">Slow Response Times</div>
+              <div class="choice-sub">Leads go cold before staff can respond</div>
+            </div>
+            <div class="form-choice-btn" data-value="Manual data entry between tools">
+              <div class="choice-title">Manual Data Entry</div>
+              <div class="choice-sub">Staff spends hours updating spreadsheets</div>
+            </div>
+            <div class="form-choice-btn" data-value="Appointment no-shows and rescheduling">
+              <div class="choice-title">Missed Appointments</div>
+              <div class="choice-sub">No-shows and phone tag to reschedule</div>
+            </div>
+            <div class="form-choice-btn" data-value="Repetitive customer support questions">
+              <div class="choice-title">Repetitive Support Queries</div>
+              <div class="choice-sub">Same routine questions every single day</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="form-step-card" data-step="6">
+          <h3>Where should we send your recommendations?</h3>
+          <p>We'll review your workflow parameters and reach out with tailored suggestions.</p>
+          <div class="clean-input-grid">
+            <div class="clean-input-group">
+              <label for="clean-name">Your Full Name *</label>
+              <input type="text" id="clean-name" placeholder="Harshal Sankala" required>
+            </div>
+            <div class="clean-input-group">
+              <label for="clean-company">Company / Business Name *</label>
+              <input type="text" id="clean-company" placeholder="Acme Enterprises" required>
+            </div>
+            <div class="clean-input-group">
+              <label for="clean-email">Work Email *</label>
+              <input type="email" id="clean-email" placeholder="name@company.com" required>
+            </div>
+            <div class="clean-input-group">
+              <label for="clean-phone">WhatsApp Number *</label>
+              <input type="tel" id="clean-phone" placeholder="+91 98XXX XXXXX" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-nav-row">
+          <button type="button" class="btn btn-secondary btn-form-prev" style="visibility: hidden;">
             ← Back
           </button>
-          <button type="button" class="btn btn-primary btn-step-next">
+          <button type="button" class="btn btn-primary btn-form-next">
             Continue →
           </button>
-          <button type="submit" class="btn btn-primary btn-step-submit" style="display: none;">
-            Generate System Architecture →
+          <button type="submit" class="btn btn-primary btn-form-submit" style="display: none;">
+            Submit Consultation Request →
           </button>
         </div>
       </form>
 
-      <!-- Success Blueprint View -->
-      <div class="discovery-success-view"></div>
+      <div class="form-success-container"></div>
     </div>
   </div>
 
   <!-- ==========================================
-       13. FOOTER
+       15. SITE FOOTER
        ========================================== -->
-  <footer class="footer-system">
+  <footer class="site-footer">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="logo-link" style="margin-bottom: 14px;">
-            <div class="logo-icon-wrap">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                <polyline points="2 17 12 22 22 17"></polyline>
-                <polyline points="2 12 12 17 22 12"></polyline>
+      <div class="footer-main-grid">
+        <div class="footer-col-brand">
+          <a href="/" class="logo-wrap" style="margin-bottom: 12px;">
+            <div class="logo-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
               </svg>
             </div>
-            <span>WEBLOQAI</span>
-          </div>
+            <span>WebloqAI</span>
+          </a>
           <p>
-            Engineering autonomous AI business systems that eliminate repetitive manual work and let your enterprise run itself.
+            AI automation consultancy designing practical business systems that eliminate repetitive manual work.
           </p>
-          <div class="footer-status-indicator">
-            <span></span> ALL SYSTEMS OPERATIONAL
-          </div>
         </div>
 
         <div class="footer-col">
-          <h4>Solutions</h4>
-          <ul class="footer-links">
+          <h5>Solutions</h5>
+          <ul class="footer-nav-list">
             <li><a href="#whatsapp">WhatsApp Automation</a></li>
-            <li><a href="#solutions">Lead Qualification</a></li>
-            <li><a href="#solutions">AI Voice Agents</a></li>
-            <li><a href="#agents">Digital Workers</a></li>
-            <li><a href="#solutions">CRM Synchronization</a></li>
+            <li><a href="#solutions">Lead Management</a></li>
+            <li><a href="#solutions">Appointment Booking</a></li>
+            <li><a href="#assistants">AI Assistants</a></li>
+            <li><a href="#solutions">CRM Automation</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Navigation</h4>
-          <ul class="footer-links">
-            <li><a href="#builder">Pipeline Builder</a></li>
+          <h5>Company</h5>
+          <ul class="footer-nav-list">
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#industries">Industries</a></li>
             <li><a href="#systems">Reference Systems</a></li>
-            <li><a href="#calculator">ROI Calculator</a></li>
             <li><a href="about.html">About WebloqAI</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Direct Contact</h4>
-          <ul class="footer-links">
+          <h5>Get in Touch</h5>
+          <ul class="footer-nav-list">
             <li><a href="https://wa.me/917028288803" target="_blank">+91 7028288803 (WhatsApp)</a></li>
             <li><a href="mailto:webloqai@gmail.com">webloqai@gmail.com</a></li>
             <li><span style="color: var(--text-dim);">Pune, Maharashtra, India</span></li>
             <li style="margin-top: 8px;">
-              <button class="btn btn-primary" data-open-discovery style="padding: 6px 16px; font-size: 0.8rem;">
-                Build My Automation →
+              <button class="btn btn-secondary btn-sm" data-open-discovery>
+                Book Consultation
               </button>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <p>&copy; 2026 WebloqAI. All rights reserved. Autonomous Business Systems.</p>
-        <div class="footer-legal-links">
+      <div class="footer-bottom-bar">
+        <p>&copy; 2026 WebloqAI. All rights reserved.</p>
+        <div class="footer-bottom-links">
           <a href="/Webloq_AI_Privacy_Policy_Long.pdf" target="_blank">Privacy Policy</a>
           <a href="/Webloq_AI_Terms_and_Conditions_Long.pdf" target="_blank">Terms & Conditions</a>
         </div>

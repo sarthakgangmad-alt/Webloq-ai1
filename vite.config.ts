@@ -19,13 +19,6 @@ export default defineConfig({
         about: path.resolve(__dirname, "about.html"),
         systems: path.resolve(__dirname, "systems.html"),
       },
-      output: {
-        manualChunks(id) {
-          if (id.includes("three")) {
-            return "three";
-          }
-        },
-      },
     },
   },
 });
