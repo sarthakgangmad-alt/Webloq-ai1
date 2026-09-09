@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  plugins: [react()],
+export default defineConfig({
+  server: {
+    host: "::",
+    port: 8080,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -15,9 +17,15 @@ export default defineConfig(({ mode }) => ({
       input: {
         main: path.resolve(__dirname, "index.html"),
         about: path.resolve(__dirname, "about.html"),
-        portfolio: path.resolve(__dirname, "portfolio.html"),
-        seo: path.resolve(__dirname, "seo.html"),
+        systems: path.resolve(__dirname, "systems.html"),
+      },
+      output: {
+        manualChunks(id) {
+          if (id.includes("three")) {
+            return "three";
+          }
+        },
       },
     },
   },
-}));
+});
